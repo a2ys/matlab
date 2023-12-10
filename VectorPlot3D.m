@@ -20,7 +20,7 @@ U = P(X,Y,Z);
 V = Q(X,Y,Z);
 W = R(X,Y,Z);
 
-% Plot the 2D vector field using quiver
+% Plot the 3D vector field using quiver
 quiver3(X,Y,Z,U,V,W,1.5)
 axis on
 xlabel('x')
